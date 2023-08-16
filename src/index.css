@@ -1,0 +1,22 @@
+body {
+  background: no-repeat url("../public/img/bg.png") rgb(0, 0, 0);
+  background-position: 20px 10px;
+  background-size: cover;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+code {
+  font-family: "Montserrat", "Rubik Mono One", "Ubuntu", sans-serif;
+}
+
+/*# sourceMappingURL=index.css.map */
