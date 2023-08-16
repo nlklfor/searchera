@@ -1,0 +1,101 @@
+/// VARIABLES ///
+
+$primary-color: #33FF00;
+$secondary-color: #CCFF00;
+$black: rgb(0, 0, 0);
+$white: #FFFFFF;
+$noBack: rgba(255, 255, 255, 0);
+
+/// BUTTONS ///
+
+@mixin btn-primary {
+  background-color: $primary-color;
+  color: $black;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  transition: .3s all;
+  font: {
+    size: 16px;
+    weight: 500;
+  }
+  padding: 24px 16px;
+
+  &:hover, &:focus, &:active {
+    box-shadow: 0px 0px 16px 0px rgba(47,173,91,1);
+  }
+}
+
+@mixin btn_secondary {
+  background-color: $black;
+  color: $white;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  font: {
+    size: 16px;
+    weight: 500;
+  }
+  padding: 24px 16px;
+}
+
+@mixin btn_simple {
+  background-color: $noBack;
+  color: $white;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  transition: .3s all;
+  font: {
+    size: 16px;
+    weight: 500;
+  }
+  padding: 27px 16px;
+  &:hover, &:focus, &:active {
+    border-color: $white;
+  }
+}
+
+@mixin btn_small1 {
+  background-color: $noBack;
+  color: $black;
+  cursor: pointer;
+  border: 1px solid $black;
+  border-radius: 16px;
+  font: {
+    size: 16px;
+    weight: 500;
+  }
+  padding: 12px 16px;
+}
+
+@mixin btn_small2 {
+  background-color: $white;
+  color: $black;
+  border: none;
+  cursor: pointer;
+  border-radius: 16px;
+  font: {
+    size: 16px;
+    weight: 500;
+  }
+  padding: 12px 16px;
+}
+
+/// HEADERS ///
+
+@mixin h1 {
+  color: $white;
+  font: {
+    size: 42px;
+    weight: 400;
+  }
+}
+
+@mixin h2 {
+  color: $white;
+  font: {
+    size: 32px;
+    weight: 400;
+  }
+}

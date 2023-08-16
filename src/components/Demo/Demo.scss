@@ -1,0 +1,47 @@
+@import '../../mixins';
+
+.demo{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.section-desc{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  .section-title{
+    @include h1;
+  }
+  .section-subtitle{
+    color: $white;
+    font: {
+      weight: 400;
+      size: 25px;
+    };
+    margin-bottom: 64px;
+  }
+  span{
+    @include h1;
+    color: $secondary-color;
+    font-family: 'Rubik Mono One', sans-serif ;
+  }
+}
+.section-buttons{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 56px;
+  .button-demo{
+    @include btn-primary;
+  }
+  .button-info{
+    @include btn_simple;
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+    svg{
+      margin-right: 8px;
+    }
+  }
+}
