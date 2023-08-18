@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  z-index: -1;
 }
 
 .section-desc {
@@ -33,7 +34,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-bottom: 56px;
+  margin-bottom: 60px;
 }
 .section-buttons .button-demo {
   background-color: #33FF00;
@@ -68,6 +69,13 @@
 }
 .section-buttons .button-info svg {
   margin-right: 8px;
+}
+
+.section-imgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: -5;
 }
 
 /*# sourceMappingURL=Demo.css.map */

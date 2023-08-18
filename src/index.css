@@ -1,10 +1,12 @@
 body {
-  background: no-repeat url("../public/img/bg.png") rgb(0, 0, 0);
+  background: no-repeat url("img/bg.png") rgb(0, 0, 0);
   background-position: 20px 10px;
   background-size: cover;
   margin: 0;
-  position: relative;
-  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
 }
 
 * {

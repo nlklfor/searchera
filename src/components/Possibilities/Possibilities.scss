@@ -1,0 +1,59 @@
+@import "src/mixins";
+
+.possibilities{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.possibilities-title{
+  @include h2;
+  margin-bottom: 110px;
+  text-align: center;
+}
+
+.possibilities-section{
+  display: grid;
+  .switch{
+    padding-top: 30px;
+    color: $white;
+    text-decoration: none;
+    font: {
+      weight: 700;
+      size: 20px;
+    };
+  }
+}
+
+.section-overview{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 110px;
+  margin-bottom: 56px;
+  .section-sub{
+    color: $white;
+  }
+  .btn_more{
+    @include btn_secondary;
+  }
+}
+
+.switch-section{
+  padding-left: 116px;
+  padding-right: 116px;
+  padding-top: 30px;
+  border-radius: 40px;
+  backdrop-filter: blur(15px);
+  background-color: rgba(172, 145, 249, 0.10);
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+

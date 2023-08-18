@@ -1,0 +1,120 @@
+@import "../../mixins.scss";
+
+svg {
+  fill: $white;
+  transition: .3s all;
+}
+
+svg:hover {
+  fill: rgb(119, 0, 255);
+}
+
+.sponsors {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 24px;
+
+  .btn-demo {
+    @include btn-primary;
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+}
+
+.sponsors-title {
+  @include h2;
+  margin-top: 160px;
+  margin-bottom: 140px;
+}
+
+.sponsors-list {
+  display: grid;
+  gap: 60px 80px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+#last {
+  grid-column: 1 / 4;
+}
+
+.blur-demo {
+  position: absolute;
+  top: 200%;
+  left: 20%;
+  border-radius: 3769.281px;
+  background: conic-gradient(from 180deg at 50% 50.00%, #FF6161 0deg, #FFD361 70.49995422363281deg, #95FFA0 162.3749577999115deg, #95B9FF 233.6249542236328deg, #D795FF 310.4999613761902deg);
+  mix-blend-mode: overlay;
+  filter: blur(212.54017639160156px);
+}
+
+.sponsors-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 500px;
+
+}
+
+.sponsors-desc_top {
+  display: flex;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.42);
+
+  .desc-title {
+    text-align: left;
+    margin-right: 50px;
+    @include h2;
+
+    span {
+      @include h2;
+      color: $secondary-color;
+      font-family: 'Rubik Mono One', sans-serif ;
+      font: {
+        size: 32px;
+      };
+    }
+  }
+
+  .desc-subtitle {
+    max-width: 400px;
+    padding-top: 100px;
+    color: var(--gray, #A7A7A7);
+    font: {
+      weight: 400;
+      size: 16px;
+    };
+  }
+}
+
+.sponsors-desc_btm {
+  display: flex;
+
+  .desc-title {
+    text-align: left;
+    margin-right: 50px;
+    @include h2;
+
+    span {
+      @include h2;
+      color: $secondary-color;
+      font-family: 'Rubik Mono One', sans-serif ;
+      font: {
+        size: 32px;
+      };
+    }
+  }
+
+  .desc-subtitle {
+    padding-top: 60px;
+    max-width: 400px;
+    color: var(--gray, #A7A7A7);
+    font: {
+      weight: 400;
+      size: 16px;
+    };
+  }
+
+}

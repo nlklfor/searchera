@@ -1,12 +1,13 @@
 @import './mixins.scss';
 
 body {
-  background: no-repeat url('../public/img/bg.png') $black;
+  background: no-repeat url('img/bg.png') $black;
   background-position: 20px 10px;
   background-size: cover;
   margin: 0;
-  position: relative;
-  overflow: hidden;
+}
+a{
+  text-decoration: none;
 }
 *{
   font-family:  'Ubuntu', sans-serif ;

@@ -1,5 +1,7 @@
 import './Demo.scss'
-
+import demoMid from '../../img/demo-mid.png'
+import demoLeft from '../../img/demo-left.png'
+import demoRight from '../../img/demo-right.png'
 const Demo = () => {
     return (
         <article className={'demo'}>
@@ -19,7 +21,9 @@ const Demo = () => {
                 </button>
             </section>
             <section className={'section-imgs'}>
-
+                <img src={demoLeft} alt={'left-img'}/>
+                <img src={demoMid} alt={'mid-img'}/>
+                <img src={demoRight} alt={'right-img'}/>
             </section>
         </article>
     )
