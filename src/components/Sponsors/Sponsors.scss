@@ -10,12 +10,14 @@ svg:hover {
 }
 
 .sponsors {
-  z-index: 2;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border-radius: 24px;
+  border-radius: 80px 80px 0px 0px;
+  box-shadow: 0px -16px 50px 0px rgba(0, 0, 0, 0.26);
+
 
   .btn-demo {
     @include btn-primary;
@@ -23,7 +25,9 @@ svg:hover {
     margin-bottom: 200px;
   }
 }
-
+.sponsors-content{
+  z-index: 20;
+}
 .sponsors-title {
   @include h2;
   margin-top: 160px;
@@ -117,4 +121,36 @@ svg:hover {
     };
   }
 
+}
+#blur-spons1{
+  position: absolute;
+  top: 75vw;
+  left: -120vh;
+  width: 1600px;
+  height: 1600px;
+  flex-shrink: 0;
+  border-radius: 2655.794px;
+  background: conic-gradient(from 140deg at 50% 50.00%, #FF6161 0deg, #FFD361 70.49995422363281deg, #95FFA0 162.3749577999115deg, #95B9FF 233.6249542236328deg, #D795FF 310.4999613761902deg);
+  filter: blur(301.490966796875px);
+  z-index: -5;
+}
+#blur-spons2{
+  position: absolute;
+  top: 130vh;
+  left: 96vw;
+  width: 800px;
+  height: 800px;
+  flex-shrink: 0;
+  border-radius: 2655.794px;
+  background: conic-gradient(from 55deg at 50% 50.00%, #FF6161 0deg, #FFD361 70.49995422363281deg, #0cace5 162.3749577999115deg, #5180dc 233.6249542236328deg, #D795FF 310.4999613761902deg);
+  filter: blur(200px);
+  z-index: -5;
+}
+
+.elipse-spons{
+  position: absolute;
+  #elipse-spons1{
+    opacity: 0.18;
+
+  }
 }

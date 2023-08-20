@@ -3,8 +3,10 @@
 .demo{
   display: flex;
   flex-direction: column;
+  background:no-repeat  url('../../../src/img/bg.png') ;
+  background-size: cover;
   margin: 0 auto;
-  z-index: -1;
+  mix-blend-mode: difference;
 }
 .section-desc{
   display: flex;
@@ -51,4 +53,11 @@
   justify-content: space-between;
   align-items: center;
   z-index: -5;
+}
+
+.elipse{
+  position: absolute;
+  flex-shrink: 0;
+  mix-blend-mode: luminosity;
+  z-index: -10;
 }

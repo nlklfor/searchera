@@ -1,12 +1,13 @@
 body {
-  background: no-repeat url("img/bg.png") rgb(0, 0, 0);
-  background-position: 20px 10px;
-  background-size: cover;
-  margin: 0;
+  background-color: rgb(0, 0, 0);
 }
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 * {

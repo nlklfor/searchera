@@ -1,5 +1,5 @@
 import './Sponsors.scss'
-
+import elipse from '../../img/Elipse-sponsors.svg'
 const Sponsors = () => {
     return (
         <article className={'sponsors'}>
@@ -143,11 +143,16 @@ const Sponsors = () => {
                     </li>
                 </ul>
             </section>
+            <div className={'elipse-spons'}>
+                <img src={elipse} alt={'elipse-spons'} id={'elipse-spons1'}/>
+            </div>
             <section className={'sponsors-desc'}>
                 <div className={'sponsors-desc_top'}>
                     <h2 className={'desc-title'}>Наша платформа допомагає<br/> компаніям <span>швидко та ефективно</span><br/> знаходити потрібних<br/> спеціалістів</h2>
                     <p className={'desc-subtitle'}>У Searchera ми розуміємо, з якими проблемами стикаються спеціалісти з управління персоналом під час пошуку відповідних кадрів для своїх організацій.</p>
                 </div>
+                <div className={'blur-spons'} id={'blur-spons1'}></div>
+                <div className={'blur-spons'} id={'blur-spons2'}></div>
                 <div className={'sponsors-desc_btm'}>
                     <h2 className={'desc-title'}>Ми <span>спрощуємо процес</span> підбору<br/> персоналу та даємо можливість<br/> приймати обґрунтовані рішення</h2>
                     <p className={'desc-subtitle'}>Ось чому ми розробили платформу пошуку талантів на базі штучного інтелекту, яка надає доступ до розширеної аналітики у вас під рукою.

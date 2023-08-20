@@ -2,6 +2,8 @@ import './Demo.scss'
 import demoMid from '../../img/demo-mid.png'
 import demoLeft from '../../img/demo-left.png'
 import demoRight from '../../img/demo-right.png'
+import elipse from '../../img/Elipse-demo.svg'
+
 const Demo = () => {
     return (
         <article className={'demo'}>
@@ -20,6 +22,9 @@ const Demo = () => {
                     </svg>
                 </button>
             </section>
+            <div className={'elipse'}>
+                <img src={elipse} alt={'elipse-demo'} id={'elipse1'}/>
+            </div>
             <section className={'section-imgs'}>
                 <img src={demoLeft} alt={'left-img'}/>
                 <img src={demoMid} alt={'mid-img'}/>

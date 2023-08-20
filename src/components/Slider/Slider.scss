@@ -1,0 +1,116 @@
+@import "src/mixins";
+
+.slider {
+  display: flex;
+  max-width: 1300px;
+  flex-direction: column;
+  margin: 0 auto;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 94% 89%, 86% 74%, 0% 75%);
+
+  &-title {
+    @include h2;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+}
+
+.slider-item{
+  background-color: rgba(172, 145, 249, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 40px;
+  padding-top: 64px;
+}
+
+.section-slider {
+
+}
+
+.section-single {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 30px;
+  margin-bottom: 250px;
+
+}
+
+.person-info {
+  display: flex;
+  align-items: center;
+}
+.person{
+  display: flex;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.person-img {
+  width: 80px;
+  height: 80px;
+  margin-right: 16px;
+}
+
+.person-desc {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  margin-right: 90px;
+
+
+  .person-name {
+    margin: 0;
+    color: $white;
+    font: {
+      weight: 700;
+      size: 20px;
+    };
+  }
+
+  .company {
+    margin: 0;
+    color: $white;
+    font: {
+      size: 20px;
+      weight: 300;
+    };
+  }
+}
+
+.person-interview {
+  max-width: 750px;
+
+  .interview {
+    color: $white;
+    font: {
+      weight: 400;
+      size: 20px;
+    };
+  }
+}
+
+.btn-prev{
+  z-index: 100 !important;
+  position: absolute;
+  transform: rotate(180deg);
+  margin-top: 4px;
+  right: 8%;
+  top: 60%;
+  background: none;
+  border: none;
+}
+.btn-next{
+  z-index: 100 !important;
+  position: absolute;
+  right: 1%;
+  top: 61%;
+  border: none;
+  background: none;
+}
+.swiper-pagination{
+  text-align: left !important;
+  z-index: 100 !important;
+  left: 93% !important;
+  top: 61.5% !important;
+  color: white !important;
+}
