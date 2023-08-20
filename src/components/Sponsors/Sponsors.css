@@ -1,0 +1,161 @@
+svg {
+  fill: #FFFFFF;
+  transition: 0.3s all;
+}
+
+svg:hover {
+  fill: rgb(119, 0, 255);
+}
+
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 80px 80px 0px 0px;
+  box-shadow: 0px -16px 50px 0px rgba(0, 0, 0, 0.26);
+}
+.sponsors .btn-demo {
+  background-color: #33FF00;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  transition: 0.3s all;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 24px 16px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.sponsors .btn-demo:hover, .sponsors .btn-demo:focus, .sponsors .btn-demo:active {
+  box-shadow: 0px 0px 16px 0px rgb(47, 173, 91);
+}
+
+.sponsors-content {
+  z-index: 20;
+}
+
+.sponsors-title {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 160px;
+  margin-bottom: 140px;
+}
+
+.sponsors-list {
+  display: grid;
+  gap: 60px 80px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+#last {
+  grid-column: 1/4;
+}
+
+.blur-demo {
+  position: absolute;
+  top: 200%;
+  left: 20%;
+  border-radius: 3769.281px;
+  background: conic-gradient(from 180deg at 50% 50%, #FF6161 0deg, #FFD361 70.4999542236deg, #95FFA0 162.3749577999deg, #95B9FF 233.6249542236deg, #D795FF 310.4999613762deg);
+  mix-blend-mode: overlay;
+  filter: blur(212.5401763916px);
+}
+
+.sponsors-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 500px;
+}
+
+.sponsors-desc_top {
+  display: flex;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.42);
+}
+.sponsors-desc_top .desc-title {
+  text-align: left;
+  margin-right: 50px;
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 400;
+}
+.sponsors-desc_top .desc-title span {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 400;
+  color: #CCFF00;
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 32px;
+}
+.sponsors-desc_top .desc-subtitle {
+  max-width: 400px;
+  padding-top: 100px;
+  color: var(--gray, #A7A7A7);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.sponsors-desc_btm {
+  display: flex;
+}
+.sponsors-desc_btm .desc-title {
+  text-align: left;
+  margin-right: 50px;
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 400;
+}
+.sponsors-desc_btm .desc-title span {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 400;
+  color: #CCFF00;
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 32px;
+}
+.sponsors-desc_btm .desc-subtitle {
+  padding-top: 60px;
+  max-width: 400px;
+  color: var(--gray, #A7A7A7);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#blur-spons1 {
+  position: absolute;
+  top: 75vw;
+  left: -120vh;
+  width: 1600px;
+  height: 1600px;
+  flex-shrink: 0;
+  border-radius: 2655.794px;
+  background: conic-gradient(from 140deg at 50% 50%, #FF6161 0deg, #FFD361 70.4999542236deg, #95FFA0 162.3749577999deg, #95B9FF 233.6249542236deg, #D795FF 310.4999613762deg);
+  filter: blur(301.4909667969px);
+  z-index: -5;
+}
+
+#blur-spons2 {
+  position: absolute;
+  top: 130vh;
+  left: 96vw;
+  width: 800px;
+  height: 800px;
+  flex-shrink: 0;
+  border-radius: 2655.794px;
+  background: conic-gradient(from 55deg at 50% 50%, #FF6161 0deg, #FFD361 70.4999542236deg, #0cace5 162.3749577999deg, #5180dc 233.6249542236deg, #D795FF 310.4999613762deg);
+  filter: blur(200px);
+  z-index: -5;
+}
+
+.elipse-spons {
+  position: absolute;
+}
+.elipse-spons #elipse-spons1 {
+  opacity: 0.18;
+}
+
+/*# sourceMappingURL=Sponsors.css.map */
