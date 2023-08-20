@@ -13,6 +13,8 @@ const Possibilieties = () => {
                         <a href={'switch'} className={'switch'}>Оптимізація процесу найму</a>
                         <a href={'switch'} className={'switch'}>Персональні рекомендації щодо роботи</a>
                     </div>
+                    <div className={'blur-poss'} id={'blur-poss1'}></div>
+                    <div className={'blur-poss'} id={'blur-poss2'}></div>
                     <div className={'section-overview'}>
                         <p className={'section-sub'}>Завдяки вдосконаленій аналітиці талантів і алгоритмам штучного
                             інтелекту<br/> платформа може точніше підбирати кандидатів відповідно до вимог<br/> роботи, що

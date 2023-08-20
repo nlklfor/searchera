@@ -1,5 +1,6 @@
 @import "src/mixins";
 
+
 .accordion {
   display: flex;
   flex-direction: column;
@@ -38,6 +39,7 @@
   cursor: pointer;
   display: flex;
   flex-direction: column;
+  backdrop-filter: blur(10px);
 }
 
 .accordion-content {
@@ -48,4 +50,19 @@
     weight: 400;
     size: 16px;
   };
+}
+.accordion-img{
+  position: absolute;
+  top: 660vh;
+  left: 50%;
+}
+.acc-blur{
+  position: absolute;
+  z-index: -5;
+  width: 1500.034px;
+  height: 1500.794px;
+  flex-shrink: 0;
+  border-radius: 2655.794px;
+  background: rgba(32, 38, 63, 0.6);
+  filter: blur(200px);
 }

@@ -1,8 +1,10 @@
 import './Footer.scss'
 
+
 const Footer = () => {
     return (
         <article className={'footer'}>
+
             <section className={'section-footer'}>
                 <section className={'section-footer-left'}>
                     <p className={'footer-logo'}>Searchera</p>

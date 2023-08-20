@@ -44,4 +44,19 @@
     padding-right: 100px;
   }
 }
+.form-img{
+  position: absolute;
+  top: 795%;
+}
+.form-blur{
+  position: absolute;
+  top:760%;
+  z-index: -10;
+  width: 1000.034px;
+  height: 1000.794px;
+  flex-shrink: 0;
+  border-radius: 100%;
+  background: rgba(32, 38, 63, 0.6);
+  filter: blur(200px);
+}
 

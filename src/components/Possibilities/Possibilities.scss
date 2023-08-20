@@ -55,6 +55,29 @@
   display: flex;
   justify-content: space-between;
 }
-
+#blur-poss1{
+  position: absolute;
+  top: -500px;
+  right: -200%;
+  z-index: -5;
+  width: 2429.034px;
+  height: 2655.794px;
+  flex-shrink: 0;
+  border-radius: 2655.794px;
+  background: conic-gradient(from -20deg at 50% 50.00%, #FF6161 0deg, #FFD361 70.49995422363281deg, #95FFA0 162.3749577999115deg, #95B9FF 233.6249542236328deg, #D795FF 310.4999613761902deg);
+  filter: blur(262.8210144042969px);
+}
+#blur-poss2{
+  position: absolute;
+  top: -660px;
+  left: -120%;
+  z-index: -5;
+  width: 1500.034px;
+  height: 1500.794px;
+  flex-shrink: 0;
+  border-radius: 2655.794px;
+  background: conic-gradient(from -20deg at 50% 50.00%, #FF6161 0deg, #54bfe7 70.49995422363281deg, #6ceaff 162.3749577999115deg, #2e6ef8 233.6249542236328deg, #D795FF 310.4999613761902deg);
+  filter: blur(350px);
+}
 
 
